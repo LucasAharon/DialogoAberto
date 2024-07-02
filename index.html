@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imagem Sobreposta Móvel</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<header>
+        <div class="left-menu">
+            <nav>
+                <ul>
+                    <li><a href="#">PRODUTOS</a></li>
+                    <li><a href="#">SOBRE A KIM</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div style="align-items: center;" class="logo">
+            <img width="50%" src="https://github.com/LucasAharon/Site_DialogoAberto/blob/main/img/SiteKim_DialogoAberto-LogoMenu.png" alt="Logo da Empresa" style="display: block; margin: auto;">
+        </div>
+        <div class="right-menu">
+            <nav>
+                <ul>
+                    <li><a href="#">RECEITAS</a></li>
+                    <li><a href="#">FALE CONOSCO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+	
+    <section>
+        <img width="100%" src="https://github.com/LucasAharon/Site_DialogoAberto/blob/main/img/SiteKim_DialogoAberto-Capa.png" alt="DialogoAberto_Capa">
+	</section>
+	
+	<div class="description">
+	<section>
+		<h1>Bem-vindo ao nosso Portal de Diálogo Aberto. </h1>
+        <p class="subdescription">Estamos aqui para ouvir suas preocupações, entender problemas e promover um ambiente de trabalho seguro e inclusivo para todos. Sua voz é importante e valorizada.</p>
+        <p class="subdescription">Fique à vontade para deixar aqui comentários, sugestões, elogios e até mesmo denúncias. Sua identidade não será divulgada e as informações serão totalmente sigilosas.</p>
+		<p class="subdescription">Caso queira deixar seu relato de forma anônima, também é possível. Mas lembre-se que, em caso de uma denúncia, é importante sabermos nomes de pessoas envolvidas.</p>
+    </section>
+	</div>
+
+    <section >
+        <form action="#" method="post">
+            <label for="nome">Nome (Opcional)</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="setor">Setor (Opcional)</label>
+            <input type="text" id="setor" name="setor">
+			
+            <label for="email">E-mail para retorno</label>
+            <input type="text" id="email" name="email">
+			
+            <label for="mensagem">Faça seu relato
+			<p>Em caso de denúncia, lembre-se que até mesmo as informações básicas são importantes na descrição dos fatos, como: data, hora, local, pessoas envolvidas (e possíveis local em que trabalham), provas (câmera X, testemunhas que presenciaram etc.).</p>
+			</label>
+            <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+<img id="moving-image_bg" src="https://github.com/LucasAharon/Site_DialogoAberto/blob/main/img/Site_DialogoAberto-FormasFundo.png" alt="Imagem sobreposta">
+<img id="moving-image" src="https://github.com/LucasAharon/Site_DialogoAberto/blob/main/img/SiteKim_DialogoAberto-FormasSup.png" alt="Imagem sobreposta">
+
+<script src="script.js"></script>
+</body>
+</html>
